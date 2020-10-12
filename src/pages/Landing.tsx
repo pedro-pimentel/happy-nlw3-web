@@ -10,9 +10,7 @@ function Landing() {
     return (
         <div id="pages-landing">
             <div className="content-wrapper">
-                <Link to="/app" className="enter-app">
-                    <img src={logoimg} alt="happy" />
-                </Link>
+                <img src={logoimg} alt="happy" />
                 <main>
                     <h1>Leve felicidade para o mundo</h1>
                     <p>Visite orfanatos e mude o dia de muitas crianças.</p>
