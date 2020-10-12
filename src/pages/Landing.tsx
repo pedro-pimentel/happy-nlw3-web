@@ -6,11 +6,13 @@ import '../styles/pages/landing.css';
 
 import logoimg from '../images/Logo.svg';
 
-function Landing(){
-    return(
+function Landing() {
+    return (
         <div id="pages-landing">
             <div className="content-wrapper">
-                <img src={logoimg} alt="happy" />
+                <Link to="/app" className="enter-app">
+                    <img src={logoimg} alt="happy" />
+                </Link>
                 <main>
                     <h1>Leve felicidade para o mundo</h1>
                     <p>Visite orfanatos e mude o dia de muitas crianças.</p>
